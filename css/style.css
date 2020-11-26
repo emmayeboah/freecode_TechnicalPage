@@ -6,6 +6,9 @@ body {
   font-family: Arial;
   padding: 10px;
   background: #f1f1f1;
+  background-image: url("../images/motorbike.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Header/Blog Title */
@@ -13,17 +16,63 @@ body {
   padding: 30px;
   text-align: center;
   background: white;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 .header h1 {
   font-size: 50px;
+
+}
+.header p{
+  font-size: 25px;
 }
 
+/* Centering  */
+
+header{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+}
+#Sit_On_Motorcycle ol{
+  font-family: 'Heebo', sans-serif;
+}
+
+#Sit_On_Motorcycle{
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+}
+
+#Lift_Kickstand{
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+}
+
+#Turn_on_Ignition{
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+}
+
+#Press_Ignition_Button{
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+}
+
+#Drive_Motorcycle{
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;   
+}
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
+  font-family: 'Castoro', serif;
 }
+
+
 
 /* Style the topnav links */
 .topnav a {
@@ -41,17 +90,24 @@ body {
   color: black;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 17px;
+}
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
   float: left;
-  width: 75%;
+  width: 25%;
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 75%;
   background-color: #f1f1f1;
   padding-left: 20px;
 }
@@ -68,6 +124,7 @@ body {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+  border-radius: 20px;
 }
 
 /* Clear floats after the columns */
@@ -83,20 +140,5 @@ body {
   text-align: center;
   background: #ddd;
   margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
+  border-radius: 25px;
 }

@@ -6,8 +6,8 @@ body {
   font-family: Arial;
   padding: 10px;
   background: #f1f1f1;
-  /* background-image: url("../images/motorbike.jpg"); */
-  background-size: cover;
+  background-image: url("../images/motor.jpg");
+  background-size: contain;
   color: white;
 }
 
@@ -15,7 +15,7 @@ body {
 .header {
   padding: 30px;
   text-align: center;
-  background-image: linear-gradient(to bottom right, orange, black, orange);
+   background-image: repeating-linear-gradient( #D9DEFB , #A4B1FD ,#C3CAF4 );
   color: white;
   font-family: 'Roboto', sans-serif;
   border-radius: 15px;
@@ -78,8 +78,10 @@ font-family: 'Libre Baskerville';
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
+  background-image: repeating-linear-gradient( #D9DEFB , #A4B1FD ,#C3CAF4 );
   font-family: 'Castoro', serif;
+  border-radius: 5px;
 }
 
 
@@ -124,11 +126,11 @@ font-family: 'Libre Baskerville';
 }
 
 /* Fake image */
-.fakeimg {
+/* .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
-}
+}*/
 
 /* Add a card effect for articles */
 .card {
@@ -149,10 +151,11 @@ font-family: 'Libre Baskerville';
 .footer {
   padding: 20px;
   text-align: center;
-  background-color: rgb(0, 0, 0, 0.5);
+  /* background-color: rgb(0, 0, 0, 0.5); */
   margin-top: 20px;
+  background-color: #D9CC9C ;
   border-radius: 25px;
-  font-size: 20px;
+  font-size: 24.6px;
   color: white;
 }
 
